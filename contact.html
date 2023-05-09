@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js"></script>
+</head>
+
+<body>
+    <div class="full">
+
+        <header>
+            <div class="container-nav">
+                <div class="cont">
+
+                    <div class="container-text-heading">
+                        <h3>Department of Software Engineering</h3>
+                    </div>
+                    <div class="container-right text-right">
+                        <p> <a href="index.html"> Home </a></p>
+                        <p> <a href="#">Contact us</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="form">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="form-data">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-data">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="name" required>
+                </div>
+                <div class="form-data">
+                    <label for="message">Message:</label>
+                    <textarea name="name" class="form-control" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" onclick="showAlert()" class="button">Submit</button>
+                <button type="submit" onclick="clearField()" class="button">clear</button>
+            </form>
+        </div>
+        <footer class="footer text-light white-light">
+            <div class="footer-div1 footer">
+                <div class="container">
+                    <div class="row py-3">
+                        <div class="col-md-3 text-white"> <a href="#">Developed by Hassan Mehdi</a></div>
+                        <div class="col-md-3 text-white">
+                            <p>© 2023 Department of Software Engineering</p>
+                        </div>
+                        <div class="col-md-3 text-right text-white">
+                            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
